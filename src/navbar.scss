@@ -125,12 +125,13 @@
       img {
         width: 30px;
       }
-      z-index: 999;
+      z-index: 9999;
       @include sm {
         display: initial;
       }
     }
     .menu {
+      z-index: 5000;
       position: absolute;
       background-color: black;
       color: white;
