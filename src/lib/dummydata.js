@@ -6,9 +6,9 @@ export const listData = [
       bedroom: 2,
       bathroom: 1,
       price: 1000,
-      address: "456 Park Avenue, London",
-      latitude: 22.343581100831468,
-      longitude: 70.90349851942041,
+      address: "Juhu Beach, Mumbai",
+      latitude: 19.088359,
+      longitude: 72.826523,
     },
     {
       id: 2,
@@ -17,9 +17,9 @@ export const listData = [
       bedroom: 3,
       bathroom: 2,
       price: 1500,
-      address: "789 Oxford Street, London",
-      latitude: 22.562984689354646,
-      longitude: 72.96396430312018,
+      address: "Lodhi Gardens, New Delhi",
+      latitude: 28.5933,
+      longitude: 77.2197,
     },
     {
       id: 3,
@@ -28,9 +28,9 @@ export const listData = [
       bedroom: 1,
       bathroom: 1,
       price: 800,
-      address: "101 Baker Street, London",
-      latitude: 22.552349781654186,
-      longitude: 72.92422202362688,
+      address: "Brigade Road, Bangalore",
+      latitude: 12.9716,
+      longitude: 77.5946,
     },
     {
       id: 4,
@@ -39,9 +39,9 @@ export const listData = [
       bedroom: 2,
       bathroom: 1,
       price: 1000,
-      address: "234 Kingsway, London,",
-      latitude: 22.552530432814603,
-      longitude: 72.92264022586555,
+      address: "Park Street, Kolkata",
+      latitude: 22.5550,
+      longitude: 88.3476,
     },
     {
       id: 5,
@@ -50,9 +50,9 @@ export const listData = [
       bedroom: 3,
       bathroom: 2,
       price: 1500,
-      address: "567 Victoria Road, London",
-      latitude: 53.4084,
-      longitude: -2.9916,
+      address: "Marine Drive, Mumbai",
+      latitude: 18.9440,
+      longitude: 72.8230,
     },
     {
       id: 6,
@@ -61,9 +61,9 @@ export const listData = [
       bedroom: 1,
       bathroom: 1,
       price: 800,
-      address: "890 Regent Street, London",
-      latitude: 54.9783,
-      longitude: -1.6174,
+      address: "MG Road, Pune",
+      latitude: 18.5204,
+      longitude: 73.8567,
     },
     {
       id: 7,
@@ -72,9 +72,9 @@ export const listData = [
       bedroom: 2,
       bathroom: 1,
       price: 1000,
-      address: "112 Piccadilly, London",
-      latitude: 53.3811,
-      longitude: -1.4701,
+      address: "Connaught Place, New Delhi",
+      latitude: 28.6315,
+      longitude: 77.2167,
     },
     {
       id: 8,
@@ -83,13 +83,13 @@ export const listData = [
       bedroom: 3,
       bathroom: 2,
       price: 1500,
-      address: "8765 Main High Street, London",
-      latitude: 51.4545,
-      longitude: -2.5879,
+      address: "Charminar, Hyderabad",
+      latitude: 17.3616,
+      longitude: 78.4747,
     },
   ];
   
-  export const singlePostData = {
+export const singlePostData = {
     id: 1,
     title: "Beautiful Apartment",
     price: 1200,
@@ -102,19 +102,19 @@ export const listData = [
     bedRooms: 2,
     bathroom: 1,
     size: 861,
-    latitude: 51.5074,
-    longitude: -0.1278, 
-    city: "London",
-    address: "1234 Broadway St",
+    latitude: 28.7041,
+    longitude: 77.1025, // Coordinates for New Delhi
+    city: "New Delhi",
+    address: "1234 Connaught Place, New Delhi",
     school: "250m away",
     bus: "100m away",
     restaurant: "50m away",
     description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
-  };
-  
-  export const userData = {
+      "Beautiful apartment located in the heart of New Delhi. Close to all major amenities, schools, restaurants, and public transport options.",
+};
+
+export const userData = {
     id: 1,
     name: "John Doe",
     img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  }; 
+}; 
